@@ -8,7 +8,7 @@ public class UIManager : MonoBehaviour {
     public GameObject RetryBtn;
     public GameObject MenuBtn;
     public GameObject GameoverScoreText;
-
+    public Text ScoreText;
     //in the Menu scene
     public GameObject DifficutyBtn;
     public GameObject StartBtn;
@@ -20,7 +20,7 @@ public class UIManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        ScoreText.text = "Score: "+GetComponent<ScoreManager>().GetScore().ToString();
 	}
 
     public void GameOverUI(){

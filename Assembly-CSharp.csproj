@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{B617AC68-3AD3-001C-33AE-6BE6309E499A}</ProjectGuid>
+    <ProjectGuid>{602CE80F-FD5F-2D21-73A2-BAF0C53E925E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -76,16 +76,16 @@
     <Compile Include="Assets\Script\Tool\CreateLandModel.cs" />
     <Compile Include="Assets\Script\UIManager.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>X:/Github/Moving_Maze/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>X:/Github/prototype_Moving_maze/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>X:/Github/Moving_Maze/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>X:/Github/prototype_Moving_maze/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>X:/Github/Moving_Maze/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>X:/Github/prototype_Moving_maze/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>X:/Github/Moving_Maze/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>X:/Github/prototype_Moving_maze/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/My_Program/Unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -266,9 +266,6 @@
     </Reference>
     <Reference Include="Unity.Locator">
       <HintPath>C:/My_Program/Unity2018/Editor/Data/Managed/Unity.Locator.dll</HintPath>
-    </Reference>
-    <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>X:/Github/Moving_Maze/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/My_Program/Unity2018/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

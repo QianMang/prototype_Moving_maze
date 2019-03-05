@@ -17,13 +17,15 @@ public class ScoreManager : MonoBehaviour {
 	}
 
     public void CaculateScore(int Distance){
-        if(maxDistance<Distance)
+        if (maxDistance < Distance)
             score++;
+        maxDistance = Mathf.Max(maxDistance, Distance);
+        
     }
 
     void OnGUI()
     {
-        GUI.Label(new Rect(100, 50, 200, 200), "SCORE:" + score.ToString());
+        //GUI.Label(new Rect(100, 50, 200, 200), "SCORE:" + score.ToString());
     }
 
     public int GetScore(){

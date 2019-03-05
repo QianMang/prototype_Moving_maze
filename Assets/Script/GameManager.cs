@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public GameObject LandCube_4_5;
     GameObject LandCube_X_5;
     public GameObject LandCube;
-    public GameObject Character;
+    //public GameObject Character;
     public GameObject Audience_1;
     public GameObject Audience_2;
     public GameObject Audience_3;
@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     //the probability
     public int arrow_probability;
     public int block_probability;
-    public int audience_probability;
+    //public int audience_probability;
 
     //create the scene every x unit
     private int createlimit_unit = 5;
@@ -105,7 +105,7 @@ public class GameManager : MonoBehaviour
         switch(landWidth){
             case 4:LandCube_X_5 = LandCube_4_5; break;
             case 5:LandCube_X_5 = LandCube_5_5; break;
-            case 6:LandCube_X_5 = LandCube_7_5;break;
+            case 7:LandCube_X_5 = LandCube_7_5;break;
             case 9:LandCube_X_5 = LandCube_9_5;break;
             default:break;
         }
@@ -133,7 +133,7 @@ public class GameManager : MonoBehaviour
 
     void InitiateCharacter()
     {
-        Character.transform.localPosition = new Vector3(0, 0.5f, landWidth - 1);
+       // Character.transform.localPosition = new Vector3(0, 0.5f, landWidth - 1);
     }
 
     void InitiateCorrectPlace()

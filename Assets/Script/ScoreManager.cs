@@ -18,7 +18,10 @@ public class ScoreManager : MonoBehaviour {
 
     public void CaculateScore(int Distance){
         if (maxDistance < Distance)
+        {
             score++;
+            GetComponent<UIManager>().UI_Score_update(score);
+        }
         maxDistance = Mathf.Max(maxDistance, Distance);
         
     }

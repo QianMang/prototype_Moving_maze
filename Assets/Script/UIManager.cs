@@ -20,14 +20,14 @@ public class UIManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        ScoreText.text = "Score: "+GetComponent<ScoreManager>().GetScore().ToString();
+        
 	}
 
     public void GameOverUI(){
         RetryBtn.SetActive(true);
         MenuBtn.SetActive(true);
         GameoverScoreText.SetActive(true);
-        GameoverScoreText.GetComponent<Text>().text="Your Score: "+GameObject.Find("Main Camera").GetComponent<ScoreManager>().GetScore().ToString();
+        //GameoverScoreText.GetComponent<Text>().text="Your Score: "+GameObject.Find("Main Camera").GetComponent<ScoreManager>().GetScore().ToString();
 
     }
 
@@ -52,5 +52,9 @@ public class UIManager : MonoBehaviour {
 
     public void MenuBtnClick(){
         SceneManager.LoadScene("StartMenu");
+    }
+    public void UI_Score_update(int score)
+    {
+        ScoreText.text = "Score: " + score.ToString();
     }
 }
